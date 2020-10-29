@@ -5,7 +5,11 @@
 
 # how to use
 ## Como usar
+- Install dependencies
 
+```
+    npm install
+``` 
 
 - Run server
 
