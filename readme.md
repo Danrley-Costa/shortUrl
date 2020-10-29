@@ -24,7 +24,7 @@
 ```
     Type: Post
     localhost:3000/short
-    body: { "url": "example.com" }
+    body: { "url": "example.com", "expire": "datade expiração nesse formato (2020-10-30)" }
 ```
 
 - Get Urls list 
