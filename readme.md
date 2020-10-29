@@ -7,8 +7,6 @@
 ## Como usar
 
 
-
-- Set string connection with data base in file ./config/config.js
 - Run server
 
 - Defina uma conexão da string com o banco de dados no arquivo .app.js onde se encontra o comentario "connect MongoDB"
