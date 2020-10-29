@@ -35,7 +35,7 @@ schema.pre('save', async function(next) {
     let url = this;
     let expire = this;
     url.short = await url.short.replace(/([^A-Za-z0-9])/, '').slice(1,6);
-    url.shortUrl = await `http://localhost:5000/${url.short}`
+    url.shortUrl = await `https://short-url-code.herokuapp.com/${url.short}`
     url.expire = url.expire
     return next()
 })
