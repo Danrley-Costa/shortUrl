@@ -14,6 +14,12 @@ exports.get = (req, res, next) => {
         });
 };
 
+// Rota que acessa a documentação
+exports.getDoc = (req, res, next) => {
+    res.status(200).redirect("https://app.swaggerhub.com/apis-docs/Ley/ShortUrl/1.0.0#/");
+};
+
+
 // Rota que busca uma URL e envia para o destino
 exports.getByShort = (req, res, next) => {
     let short = req.params.short;
