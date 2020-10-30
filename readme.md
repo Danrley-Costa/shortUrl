@@ -47,7 +47,7 @@
 
 - Remover Url 
 ```
-    Type: Get
+    Type: Delete
     localhost:5000/"_id"
 ```
 
