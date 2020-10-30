@@ -16,6 +16,8 @@
 - Defina uma conexão da string com o banco de dados no arquivo .app.js onde se encontra o comentario "connect MongoDB"
 ```
     npm run dev
+    ou 
+    npm run start
 ``` 
 
 ## Requests
@@ -26,7 +28,7 @@
 ```
     Type: Post
     localhost:5000/short
-    body: { "url": "example.com", "expire": "data de expiração nesse formato (2020-10-30)" }
+    body: { "url": "example.com", "expire": "data de expiração no formato (2020-10-30)" }
 ```
 
 - Get Urls list 
