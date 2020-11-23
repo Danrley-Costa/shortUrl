@@ -54,7 +54,7 @@
 - Documentation API 
 ```
     Type: Get
-    localhost:5000/api/doc
+    https://short-url-code.herokuapp.com/api/doc
 ```
 ## Documentation
 - https://app.swaggerhub.com/apis-docs/Ley/ShortUrl/1.0.0#/
